@@ -19,6 +19,7 @@ jobs:
         shell: bash
         run: |
           docker run -itd python:3.7 --name aiueo
+          docker ps
           docker exec aiueo ls
 
     # strategy:
