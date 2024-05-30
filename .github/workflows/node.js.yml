@@ -16,6 +16,7 @@ jobs:
 
     steps:
       - name: aadeeadfa
+        uses: bash
         run: |
           docker run -itd python:3.7 --name aiueo
           docker exec aiueo ls
