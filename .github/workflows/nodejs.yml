@@ -21,7 +21,7 @@ jobs:
           docker run --name aiueo -itd python:3.7
           docker ps
           docker exec aiueo sleep 5
-          ls
+          docker ps
 
     # strategy:
     #   matrix:
